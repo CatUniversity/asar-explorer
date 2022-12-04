@@ -1,0 +1,14 @@
+[package]
+name = "asar-explorer"
+version = "0.1.0"
+authors = ["arHSM (한승민 <hanseungmin.ar@gmail.com>)"]
+description = "A trait that adds capability to unpack electron .asar file(s)."
+repository = "https://github.com/CatUniversity/asar-explorer/"
+license = "MIT"
+keywords = ["asar", "electron"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1.0.89"
